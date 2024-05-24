@@ -22,6 +22,9 @@
 
 
 <br><br>
+Jogo para o Projeto Integrador do primeiro semestre de Ciências da Computação da FECAP - Baseado na ODS 3 da ONU (Saúde e bem-estar)
+<br>
+
 Depois dos casos de dengue aumentarem em uma região da cidade , lotando postos de saúde, UPAs e hospitais, criando uma crise de saúde pública, a prefeitura decide que precisa agir rapidamente antes que a situação piore. No jogo Dengue Destruction, você vai controlar um agente de saúde que tem o objetivo de eliminar focos de dengue em um parque da cidade (lugar onde tem acontecido a maioria dos casos) mas com um porém... você precisa ser rápido e eficiente para evitar que o pior aconteça e o caos se alastre por toda a cidade!
 <br><br>
 <br><br>
