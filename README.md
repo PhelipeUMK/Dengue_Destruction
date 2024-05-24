@@ -16,7 +16,7 @@
 
 <p align="center">
 <a href="https://ibb.co/9ssDmpZ"><img src="https://i.ibb.co/KFFPc5K/Fundo-Jogo.jpg" alt="Fundo-Jogo" border="0"></a><br /><a target='_blank' href='https://pt-br.imgbb.com/'>redime</a><br />
-  Game by <a href="http://www.nyphotographic.com/">Nick Youngson</a> <a rel="license" href="https://creativecommons.org/licenses/by-sa/3.0/">CC BY-SA 3.0</a> <a href="http://pix4free.org/">Pix4free</a>
+  Game by <p xmlns:cc="http://creativecommons.org/ns#" xmlns:dct="http://purl.org/dc/terms/"><a property="dct:title" rel="cc:attributionURL" href="https://github.com/2024-1-MCC1/Projeto13/tree/main">Game Dengue Destruction</a> by <a rel="cc:attributionURL dct:creator" property="cc:attributionName" href="https://github.com/RossanezeMatheus">Matheus Rossaneze Ramos Silva, Phelipe Antonio de Souza, Lucca Turbiani Silva Santos</a> is licensed under <a href="https://creativecommons.org/licenses/by/4.0/?ref=chooser-v1" target="_blank" rel="license noopener noreferrer" style="display:inline-block;">CC BY 4.0<img style="height:22px!important;margin-left:3px;vertical-align:text-bottom;" src="https://mirrors.creativecommons.org/presskit/icons/cc.svg?ref=chooser-v1" alt=""><img style="height:22px!important;margin-left:3px;vertical-align:text-bottom;" src="https://mirrors.creativecommons.org/presskit/icons/by.svg?ref=chooser-v1" alt=""></a></p>
 </p>
 
 
