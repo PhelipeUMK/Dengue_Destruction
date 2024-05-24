@@ -2,12 +2,11 @@ using System.Collections;
 using System.Collections.Generic;
 using TMPro;
 using UnityEngine;
-using static UnityEditor.PlayerSettings;
+using UnityEditor;
+using UnityEngine.SceneManagement;
 
 public class Focos : MonoBehaviour
 {
-    [SerializeField] float remainingTime;
-
     bool pneu1 = true;
     bool pneu2 = true;
     bool pneu3 = true;
@@ -17,73 +16,62 @@ public class Focos : MonoBehaviour
     bool pneu7 = true;
     bool pneu8 = true;
     bool pneu9 = true;
-    bool caixaDaAgua = true;
-    bool tempo = true;
-    bool pratoDeVaso1 = true;
-    bool pratoDeVaso2 = true;
-
-    int focos = 12;
+    bool caixaDaAgua1 = true;
+    bool caixaDaAgua2 = true;
+    bool vaso1 = true;
+    bool vaso2 = true;
+    bool vaso3 = true;
+    
+    int focos = 14;
     int casos = 0;
     public TMP_Text casosTotal;
     public TMP_Text focosTotal;
     public TMP_Text rank;
     int rankN = 1;
-     
 
+    private PauseManager pauseManager;
     // Start is called before the first frame update
     void Start()
     {
-   
+        pauseManager = FindAnyObjectByType<PauseManager>();
     }
 
     // Update is called once per frame
     void Update()
-    { 
-        if (tempo)
+    {
+        if (pauseManager != null && !pauseManager.IsPaused())
         {
-            remainingTime -= Time.deltaTime;
-        }
+            if (focos > 0)
+            {
+                casos++;
+                casosTotal.SetText($"Casos: {casos}");
+            }
 
-        if (focos == 0)
-
-        {
-            tempo = false;
-        }
-        int minutes = Mathf.FloorToInt(remainingTime / 60);
-        int seconds = Mathf.FloorToInt(remainingTime % 60);
-        
-
-        if (focos > 0)
-        {
-            casos++;
-            casosTotal.SetText($"Casos: {casos}");
-        }
-
-        if (casos < 26000)
-        {
-            rank.SetText("Rank: A");
-            rankN = 1;
-        }
-
-       else if (casos < 30000)
-        {
-            rank.SetText("Rank: B");
-            rankN = 2;
-        }
-        else if (casos < 34000)
-        {
-            rank.SetText("Rank: C");
-            rankN = 3;
-        }
-        else if (casos < 38000)
-        {
-            rank.SetText("Rank: D");
-            rankN = 4;
-        }
-        else
-        {
-            rank.SetText("Rank: E");
-            rankN = 5;
+            if (casos < 3000)
+            {
+                rank.SetText("Rank: A");
+                rankN = 1;
+            }
+            else if (casos < 4000)
+            {
+                rank.SetText("Rank: B");
+                rankN = 2;
+            }
+            else if (casos < 5000)
+            {
+                rank.SetText("Rank: C");
+                rankN = 3;
+            }
+            else if (focos < 6000)
+            {
+                rank.SetText("Rank: D");
+                rankN = 4;
+            }
+            else
+            {
+                rank.SetText("Rank: ");
+                rankN = 5;
+            }
         }
     }
 
@@ -91,7 +79,7 @@ public class Focos : MonoBehaviour
     {
 
 
-        if ((y.gameObject.name == $"Pneu1" && Input.GetKey(KeyCode.E)))
+        if ((y.gameObject.name == "Pneu1" && Input.GetKey(KeyCode.E)))
         {
             if (pneu1)
             {
@@ -101,7 +89,7 @@ public class Focos : MonoBehaviour
             }
         }
 
-        if ((y.gameObject.name == $"Pneu2" && Input.GetKey(KeyCode.E)))
+        if ((y.gameObject.name == "Pneu2" && Input.GetKey(KeyCode.E)))
         {
             if (pneu2)
             {
@@ -111,7 +99,7 @@ public class Focos : MonoBehaviour
             }
         }
 
-        if ((y.gameObject.name == $"Pneu3" && Input.GetKey(KeyCode.E)))
+        if ((y.gameObject.name == "Pneu3" && Input.GetKey(KeyCode.E)))
         {
             if (pneu3)
             {
@@ -121,7 +109,7 @@ public class Focos : MonoBehaviour
             }
         }
 
-        if ((y.gameObject.name == $"Pneu4" && Input.GetKey(KeyCode.E)))
+        if ((y.gameObject.name == "Pneu4" && Input.GetKey(KeyCode.E)))
         {
             if (pneu4)
             {
@@ -131,7 +119,7 @@ public class Focos : MonoBehaviour
             }
         }
 
-        if ((y.gameObject.name == $"Pneu5" && Input.GetKey(KeyCode.E)))
+        if ((y.gameObject.name == "Pneu5" && Input.GetKey(KeyCode.E)))
         {
             if (pneu5)
             {
@@ -141,7 +129,7 @@ public class Focos : MonoBehaviour
             }
         }
 
-        if ((y.gameObject.name == $"Pneu6" && Input.GetKey(KeyCode.E)))
+        if ((y.gameObject.name == "Pneu6" && Input.GetKey(KeyCode.E)))
         {
             if (pneu6)
             {
@@ -151,7 +139,7 @@ public class Focos : MonoBehaviour
             }
         }
 
-        if ((y.gameObject.name == $"Pneu7" && Input.GetKey(KeyCode.E)))
+        if ((y.gameObject.name == "Pneu7" && Input.GetKey(KeyCode.E)))
         {
             if (pneu7)
             {
@@ -161,7 +149,7 @@ public class Focos : MonoBehaviour
             }
         }
 
-        if ((y.gameObject.name == $"Pneu8" && Input.GetKey(KeyCode.E)))
+        if ((y.gameObject.name == "Pneu8" && Input.GetKey(KeyCode.E)))
         {
             if (pneu8)
             {
@@ -171,7 +159,7 @@ public class Focos : MonoBehaviour
             }
         }
 
-        if ((y.gameObject.name == $"Pneu9" && Input.GetKey(KeyCode.E)))
+        if ((y.gameObject.name == "Pneu9" && Input.GetKey(KeyCode.E)))
         {
             if (pneu9)
             {
@@ -181,56 +169,82 @@ public class Focos : MonoBehaviour
             }
         }
 
-        if ((y.gameObject.name == $"Tampa" && Input.GetKey(KeyCode.E)))
+        if ((y.gameObject.name == "Tampa1" && Input.GetKey(KeyCode.E)))
         {
-            if (caixaDaAgua)
+            if (caixaDaAgua1)
             {
                 focos--;
                 focosTotal.SetText($"Focos: {focos}");
-                caixaDaAgua = false;
+                caixaDaAgua1 = false;
             }
         }
 
-        if ((y.gameObject.name == $"PratoDeVaso1" && Input.GetKey(KeyCode.E)))
+        if ((y.gameObject.name == "Tampa2" && Input.GetKey(KeyCode.E)))
         {
-            if (pratoDeVaso1)
+            if (caixaDaAgua2)
             {
                 focos--;
                 focosTotal.SetText($"Focos: {focos}");
-                pratoDeVaso1 = false;
+                caixaDaAgua2 = false;
             }
         }
 
-        if ((y.gameObject.name == $"PratoDeVaso2" && Input.GetKey(KeyCode.E)))
+        if ((y.gameObject.name == "PratoDeVaso1" && Input.GetKey(KeyCode.E)))
         {
-            if (pratoDeVaso2)
+            if (vaso1)
             {
                 focos--;
                 focosTotal.SetText($"Focos: {focos}");
-                pratoDeVaso2 = false;
+                vaso1 = false;
             }
         }
+
+        if ((y.gameObject.name == "PratoDeVaso2" && Input.GetKey(KeyCode.E)))
+        {
+            if (vaso2)
+            {
+                focos--;
+                focosTotal.SetText($"Focos: {focos}");
+                vaso2 = false;
+            }
+        }
+
+        if ((y.gameObject.name == "PratoDeVaso3" && Input.GetKey(KeyCode.E)))
+        {
+            if (vaso3)
+            {
+                focos--;
+                focosTotal.SetText($"Focos: {focos}");
+                vaso3 = false;
+            }
+        }
+
         if (focos == 0)
         {
             if (rankN == 1)
             {
-                focosTotal.SetText("Parabéns!!!");
+                focosTotal.SetText("Parabï¿½ns!!!");
+                SceneManager.LoadScene("VictorySceneA");
             }
             else if (rankN == 2)
             {
                 focosTotal.SetText("Nada mal.");
+                SceneManager.LoadScene("VictorySceneB");
             }
             else if (rankN == 3)
             {
                 focosTotal.SetText("Foi mais ou menos.");
+                SceneManager.LoadScene("VictorySceneC");
             }
             else if (rankN == 4)
             {
-                focosTotal.SetText("Você foi mal.");
+                focosTotal.SetText("Vocï¿½ foi mal.");
+                SceneManager.LoadScene("VictorySceneDE");
             }
             else if (rankN == 5)
             {
-                focosTotal.SetText("Péssimo!");
+                focosTotal.SetText("Pï¿½ssimo!");
+                SceneManager.LoadScene("VictorySceneDE");
             }
         }
     }

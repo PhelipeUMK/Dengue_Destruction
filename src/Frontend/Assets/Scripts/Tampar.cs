@@ -15,19 +15,19 @@ public class Tampar : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        if (tampado)
-        {
-            transform.position = new Vector3(-13, 1.05f, -3.15f);
-        }
+        
     }
 
     private void OnCollisionStay(Collision y)
     {
-        if (tampado == false && (y.gameObject.name == "P1" && Input.GetKey(KeyCode.E)))
-        {    
-            transform.Rotate(-45, 0, 0);
-            tampado = true;
+        if ((y.gameObject.name == "P1" && Input.GetKey(KeyCode.E)))
+        {
+            if (tampado == false)
+            {
+                transform.Rotate(-45, 0, 0);
+                transform.position = new Vector3(-13, 1.05f, -3.15f);
+                tampado = true;
+            }
         }
-        
     }
 }

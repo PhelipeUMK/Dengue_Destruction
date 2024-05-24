@@ -47,7 +47,7 @@ public class Player : MonoBehaviour
 
         if (Input.GetButtonDown("Jump") && isGrounded == true)
         {
-            rb.AddForce(Vector3.up * 5, ForceMode.Impulse);
+            rb.AddForce(Vector3.up * 10, ForceMode.Impulse);
         }
     }
 }
