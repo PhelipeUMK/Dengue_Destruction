@@ -4,9 +4,9 @@
 <a href= "https://www.fecap.br/"><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRhZPrRa89Kma0ZZogxm0pi-tCn_TLKeHGVxywp-LXAFGR3B1DPouAJYHgKZGV0XTEf4AE&usqp=CAU" alt="FECAP - Fundação de Comércio Álvares Penteado" border="0"></a>
 </p>
 
-# Nome do Projeto
+# Nome do Projeto - Dengue Destruction
 
-## Nome do Grupo
+## Nome do Grupo - Salvadores
 
 ## Integrantes: <a href="https://www.linkedin.com/in/victorbarq/">Matheus Rossaneze Ramos Silva</a>, <a href="https://www.linkedin.com/in/victorbarq/">Phelipe Antonio de Souza</a>, <a href="https://www.linkedin.com/in/victorbarq/">Lucca Turbiani Silva Santos</a>
 
