@@ -15,7 +15,7 @@
 ## Descrição
 
 <p align="center">
-<a href="https://ibb.co/9ssDmpZ"><img src="https://i.ibb.co/KFFPc5K/Fundo-Jogo.jpg" alt="Fundo-Jogo" border="0"></a><br /><a target='_blank' href='https://pt-br.imgbb.com/'>redimensionar imagem online gratis</a><br />
+<a href="https://ibb.co/9ssDmpZ"><img src="https://i.ibb.co/KFFPc5K/Fundo-Jogo.jpg" alt="Fundo-Jogo" border="0"></a><br /><a target='_blank' href='https://pt-br.imgbb.com/'>redime</a><br />
   Game by <a href="http://www.nyphotographic.com/">Nick Youngson</a> <a rel="license" href="https://creativecommons.org/licenses/by-sa/3.0/">CC BY-SA 3.0</a> <a href="http://pix4free.org/">Pix4free</a>
 </p>
 
