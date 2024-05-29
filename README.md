@@ -137,7 +137,8 @@ A cada atualização os detalhes devem ser lançados aqui.
     * Início do projeto
 
 ## 📋 Licença/License
-
+<p xmlns:cc="http://creativecommons.org/ns#" xmlns:dct="http://purl.org/dc/terms/"><a property="dct:title" rel="cc:attributionURL" href="https://github.com/2024-1-MCC1/Projeto13/tree/main">Game Dengue Destruction</a> by <a rel="cc:attributionURL dct:creator" property="cc:attributionName" href="https://github.com/RossanezeMatheus">Matheus Rossaneze Ramos Silva, Phelipe Antonio de Souza, Lucca Turbiani Silva Santos</a> is licensed under <a href="https://creativecommons.org/licenses/by/4.0/?ref=chooser-v1" target="_blank" rel="license noopener noreferrer" style="display:inline-block;">CC BY 4.0<img style="height:22px!important;margin-left:3px;vertical-align:text-bottom;" src="https://mirrors.creativecommons.org/presskit/icons/cc.svg?ref=chooser-v1" alt=""><img style="height:22px!important;margin-left:3px;vertical-align:text-bottom;" src="https://mirrors.creativecommons.org/presskit/icons/by.svg?ref=chooser-v1" alt=""></a></p>
+</p>
 
 ## 🎓 Referências
 
