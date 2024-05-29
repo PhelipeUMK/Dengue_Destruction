@@ -102,19 +102,39 @@ Coloque código do prompt de comnando se for necessário
 ## 🗃 Histórico de lançamentos
 
 A cada atualização os detalhes devem ser lançados aqui.
-
-* 0.2.1 - 25/01/2022
-    * MUDANÇA: Atualização de docs (código do módulo permanece inalterado)
-* 0.2.0 - 15/01/2022
-    * MUDANÇA: Remove `setDefaultXYZ()`
-    * ADD: Adiciona `init()`
-* 0.1.1 - 11/01/2022
-    * CONSERTADO: Crash quando chama `baz()` (Obrigado @NomeDoContribuidorGeneroso!)
-* 0.1.0 - 10/01/2022
-    * O primeiro lançamento adequado
-    * MUDANÇA: Renomeia `foo()` para `bar()`
-* 0.0.1 - 01/01/2022
-    * Trabalho em andamento
+* 24/05/2024
+    * Ajustes e testes finais
+    * Projeto finalizado
+* 17/05/2024
+    * Implementação das telas de vitória
+* 10/05/2024
+    * Implementação da tela inicial
+    * Condição de vitória realizada
+    * Início da construção das telas de vitória
+    * Primeiros testes do jogo
+* 03/05/2024
+    * Início da construção da tela inicial do jogo
+    * Implementação do menu de pause
+    * Implementação do sistema de ranking, integrando com outros scritps
+    * Melhorias na movimentação do personagem
+* 26/04/2024
+    * Interações do jogo concluídas
+    * Mapa do jogo concluído
+* 19/04/2024
+    * Início da construção do menu de pause
+    * Início da costrução do sistema de ranking do jogo
+* 12/04/2024
+    * Movimentação do personagem concluída 
+    * Mecânica de pulo concluído
+    * Início da construção das interações do jogo
+* 29/03/2024
+    * Busca pelas texturas que foram utilizadas no jogo
+    * Início da construção do mapa do jogo
+* 22/03/2024
+    * Definição oficial do tema do jogo
+    * Início do planejamento para a construção 
+* 15/03/2024
+    * Início do projeto
 
 ## 📋 Licença/License
 
