@@ -143,9 +143,15 @@ A cada atualização os detalhes devem ser lançados aqui.
 ## 🎓 Referências
 
 Aqui estão as referências usadas no projeto.
+1. Assets utilizados no jogo:
+   - https://assetstore.unity.com/packages/tools/particles-effects/bfw-simple-dynamic-clouds-85665
+   - https://assetstore.unity.com/packages/3d/vegetation/flowers/stylized-plants-in-pots-207656
+   - https://assetstore.unity.com/packages/3d/environments/nature-low-poly-pack-240452
+   - https://assetstore.unity.com/packages/3d/props/exterior/free-stylized-garden-asset-145896
 
-1. <https://github.com/iuricode/readme-template>
-2. <https://github.com/gabrieldejesus/readme-model>
-3. <https://creativecommons.org/share-your-work/>
-4. <https://freesound.org/>
-5. Músicas por: <a href="https://freesound.org/people/DaveJf/sounds/616544/"> DaveJf </a> e <a href="https://freesound.org/people/DRFX/sounds/338986/"> DRFX </a> ambas com Licença CC 0.
+2. Pesquisas sobre o tema:
+   - https://g1.globo.com/saude/dengue/noticia/2024/04/29/brasil-passa-de-4-milhoes-de-casos-de-dengue.ghtml
+   - https://veja.abril.com.br/saude/por-que-casos-de-dengue-estao-explodindo-no-brasil
+   - https://g1.globo.com/saude/noticia/2024/04/16/brasil-passa-por-surto-de-dengue-enquanto-atrasa-metas-de-saneamento-basico-entenda.ghtml
+   - https://www.unicef.org/brazil/prevencao-e-combate-ao-aedes-aegypti#:~:text=A%20forma%20mais%20eficaz%20de%20preven%C3%A7%C3%A3o%20%C3%A9%20o%20combate%20ao,Deixar%20as%20lixeiras%20bem%20tampadas
+   - https://www.tuasaude.com/prevencao-da-dengue/
